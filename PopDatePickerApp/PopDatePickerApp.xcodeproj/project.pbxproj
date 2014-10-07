@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D91DDCB819E42C0300A8C9C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91DDCB719E42C0300A8C9C4 /* AppDelegate.swift */; };
+		D91DDCBA19E42C0300A8C9C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91DDCB919E42C0300A8C9C4 /* ViewController.swift */; };
+		D91DDCBF19E42C0300A8C9C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91DDCBE19E42C0300A8C9C4 /* Images.xcassets */; };
+		D91DDCC219E42C0300A8C9C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D91DDCC019E42C0300A8C9C4 /* LaunchScreen.xib */; };
+		D91DDCD819E42C2F00A8C9C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91DDCD719E42C2F00A8C9C4 /* Main.storyboard */; };
+		D91DDD3319E42D4E00A8C9C4 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91DDD3219E42D4E00A8C9C4 /* DateUtils.swift */; };
+		D91DDD6F19E42F6000A8C9C4 /* PopDatePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91DDD6E19E42F6000A8C9C4 /* PopDatePicker.framework */; };
+		D91DDD7019E42F6000A8C9C4 /* PopDatePicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D91DDD6E19E42F6000A8C9C4 /* PopDatePicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D91DDD7119E42F6000A8C9C4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D91DDD7019E42F6000A8C9C4 /* PopDatePicker.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D91DDCB219E42C0300A8C9C4 /* PopDatePickerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopDatePickerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D91DDCB619E42C0300A8C9C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D91DDCB719E42C0300A8C9C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D91DDCB919E42C0300A8C9C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D91DDCBE19E42C0300A8C9C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D91DDCC119E42C0300A8C9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D91DDCD719E42C2F00A8C9C4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		D91DDD3219E42D4E00A8C9C4 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
+		D91DDD6A19E42EDC00A8C9C4 /* PopDatePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PopDatePicker.framework; path = "../PopDatePicker/build/Debug-iphoneos/PopDatePicker.framework"; sourceTree = "<group>"; };
+		D91DDD6E19E42F6000A8C9C4 /* PopDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = PopDatePicker.framework; path = "/Users/valfer/Library/Developer/Xcode/DerivedData/PopDatePickerWorkSpace-gkicpuxwebrryeerbcgfxgwmjfag/Build/Products/Debug-iphoneos/PopDatePicker.framework"; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D91DDCAF19E42C0300A8C9C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91DDD6F19E42F6000A8C9C4 /* PopDatePicker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D91DDCA919E42C0300A8C9C4 = {
+			isa = PBXGroup;
+			children = (
+				D91DDD6E19E42F6000A8C9C4 /* PopDatePicker.framework */,
+				D91DDD6A19E42EDC00A8C9C4 /* PopDatePicker.framework */,
+				D91DDCB419E42C0300A8C9C4 /* PopDatePickerApp */,
+				D91DDCB319E42C0300A8C9C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D91DDCB319E42C0300A8C9C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D91DDCB219E42C0300A8C9C4 /* PopDatePickerApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D91DDCB419E42C0300A8C9C4 /* PopDatePickerApp */ = {
+			isa = PBXGroup;
+			children = (
+				D91DDCB719E42C0300A8C9C4 /* AppDelegate.swift */,
+				D91DDCB919E42C0300A8C9C4 /* ViewController.swift */,
+				D91DDD3219E42D4E00A8C9C4 /* DateUtils.swift */,
+				D91DDCD719E42C2F00A8C9C4 /* Main.storyboard */,
+				D91DDCBE19E42C0300A8C9C4 /* Images.xcassets */,
+				D91DDCC019E42C0300A8C9C4 /* LaunchScreen.xib */,
+				D91DDCB519E42C0300A8C9C4 /* Supporting Files */,
+			);
+			path = PopDatePickerApp;
+			sourceTree = "<group>";
+		};
+		D91DDCB519E42C0300A8C9C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D91DDCB619E42C0300A8C9C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D91DDCB119E42C0300A8C9C4 /* PopDatePickerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D91DDCD119E42C0400A8C9C4 /* Build configuration list for PBXNativeTarget "PopDatePickerApp" */;
+			buildPhases = (
+				D91DDCAE19E42C0300A8C9C4 /* Sources */,
+				D91DDCAF19E42C0300A8C9C4 /* Frameworks */,
+				D91DDCB019E42C0300A8C9C4 /* Resources */,
+				D91DDD7119E42F6000A8C9C4 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PopDatePickerApp;
+			productName = PopDatePickerApp;
+			productReference = D91DDCB219E42C0300A8C9C4 /* PopDatePickerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D91DDCAA19E42C0300A8C9C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Valerio Ferrucci";
+				TargetAttributes = {
+					D91DDCB119E42C0300A8C9C4 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = D91DDCAD19E42C0300A8C9C4 /* Build configuration list for PBXProject "PopDatePickerApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D91DDCA919E42C0300A8C9C4;
+			productRefGroup = D91DDCB319E42C0300A8C9C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D91DDCB119E42C0300A8C9C4 /* PopDatePickerApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D91DDCB019E42C0300A8C9C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91DDCC219E42C0300A8C9C4 /* LaunchScreen.xib in Resources */,
+				D91DDCBF19E42C0300A8C9C4 /* Images.xcassets in Resources */,
+				D91DDCD819E42C2F00A8C9C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D91DDCAE19E42C0300A8C9C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D91DDCBA19E42C0300A8C9C4 /* ViewController.swift in Sources */,
+				D91DDD3319E42D4E00A8C9C4 /* DateUtils.swift in Sources */,
+				D91DDCB819E42C0300A8C9C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D91DDCC019E42C0300A8C9C4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D91DDCC119E42C0300A8C9C4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D91DDCCF19E42C0400A8C9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D91DDCD019E42C0400A8C9C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D91DDCD219E42C0400A8C9C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/valfer/Developer/PopDatePicker/PopdatePicker/build/Debug-iphoneos",
+					"/Users/valfer/Developer/PopDatePicker/PopDatePicker/build/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/PopDatePickerWorkSpace-gkicpuxwebrryeerbcgfxgwmjfag/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = PopDatePickerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D91DDCD319E42C0400A8C9C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/valfer/Developer/PopDatePicker/PopdatePicker/build/Debug-iphoneos",
+					"/Users/valfer/Developer/PopDatePicker/PopDatePicker/build/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/PopDatePickerWorkSpace-gkicpuxwebrryeerbcgfxgwmjfag/Build/Products/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = PopDatePickerApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D91DDCAD19E42C0300A8C9C4 /* Build configuration list for PBXProject "PopDatePickerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91DDCCF19E42C0400A8C9C4 /* Debug */,
+				D91DDCD019E42C0400A8C9C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D91DDCD119E42C0400A8C9C4 /* Build configuration list for PBXNativeTarget "PopDatePickerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D91DDCD219E42C0400A8C9C4 /* Debug */,
+				D91DDCD319E42C0400A8C9C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D91DDCAA19E42C0300A8C9C4 /* Project object */;
+}
