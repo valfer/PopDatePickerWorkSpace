@@ -30,7 +30,7 @@ class PopDateViewController : UIViewController {
         /*
         this is necessary in order to build PopDatePicker as a separate framework
         */
-        let frameworkBundleID = "it.tabasoft.PopDatePicker";
+        let frameworkBundleID = "it.tabasoft.PopDatePicker"
         let frameworkBundle = NSBundle(identifier: frameworkBundleID)
         self.init(nibName: "PopDateViewController", bundle: frameworkBundle)
     }

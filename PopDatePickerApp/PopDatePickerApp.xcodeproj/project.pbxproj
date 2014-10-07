@@ -13,8 +13,8 @@
 		D91DDCC219E42C0300A8C9C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D91DDCC019E42C0300A8C9C4 /* LaunchScreen.xib */; };
 		D91DDCD819E42C2F00A8C9C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91DDCD719E42C2F00A8C9C4 /* Main.storyboard */; };
 		D91DDD3319E42D4E00A8C9C4 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91DDD3219E42D4E00A8C9C4 /* DateUtils.swift */; };
-		D91DDD6F19E42F6000A8C9C4 /* PopDatePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D91DDD6E19E42F6000A8C9C4 /* PopDatePicker.framework */; };
-		D91DDD7019E42F6000A8C9C4 /* PopDatePicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D91DDD6E19E42F6000A8C9C4 /* PopDatePicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D9C895E019E458D40095C36C /* PopDatePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C895DF19E458D40095C36C /* PopDatePicker.framework */; };
+		D9C895E119E458D40095C36C /* PopDatePicker.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D9C895DF19E458D40095C36C /* PopDatePicker.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D91DDD7019E42F6000A8C9C4 /* PopDatePicker.framework in Embed Frameworks */,
+				D9C895E119E458D40095C36C /* PopDatePicker.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -40,8 +40,7 @@
 		D91DDCC119E42C0300A8C9C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		D91DDCD719E42C2F00A8C9C4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		D91DDD3219E42D4E00A8C9C4 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
-		D91DDD6A19E42EDC00A8C9C4 /* PopDatePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PopDatePicker.framework; path = "../PopDatePicker/build/Debug-iphoneos/PopDatePicker.framework"; sourceTree = "<group>"; };
-		D91DDD6E19E42F6000A8C9C4 /* PopDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = PopDatePicker.framework; path = "/Users/valfer/Library/Developer/Xcode/DerivedData/PopDatePickerWorkSpace-gkicpuxwebrryeerbcgfxgwmjfag/Build/Products/Debug-iphoneos/PopDatePicker.framework"; sourceTree = "<absolute>"; };
+		D9C895DF19E458D40095C36C /* PopDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; name = PopDatePicker.framework; path = "/Users/valfer/Library/Developer/Xcode/DerivedData/PopDatePickerWorkSpace-djiegylydmyomxdjcjviwalocgjl/Build/Products/Debug-iphoneos/PopDatePicker.framework"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D91DDD6F19E42F6000A8C9C4 /* PopDatePicker.framework in Frameworks */,
+				D9C895E019E458D40095C36C /* PopDatePicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,8 +58,7 @@
 		D91DDCA919E42C0300A8C9C4 = {
 			isa = PBXGroup;
 			children = (
-				D91DDD6E19E42F6000A8C9C4 /* PopDatePicker.framework */,
-				D91DDD6A19E42EDC00A8C9C4 /* PopDatePicker.framework */,
+				D9C895DF19E458D40095C36C /* PopDatePicker.framework */,
 				D91DDCB419E42C0300A8C9C4 /* PopDatePickerApp */,
 				D91DDCB319E42C0300A8C9C4 /* Products */,
 			);
@@ -275,6 +273,7 @@
 					"/Users/valfer/Developer/PopDatePicker/PopdatePicker/build/Debug-iphoneos",
 					"/Users/valfer/Developer/PopDatePicker/PopDatePicker/build/Debug-iphoneos",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/PopDatePickerWorkSpace-gkicpuxwebrryeerbcgfxgwmjfag/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/PopDatePickerWorkSpace-djiegylydmyomxdjcjviwalocgjl/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = PopDatePickerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -291,6 +290,7 @@
 					"/Users/valfer/Developer/PopDatePicker/PopdatePicker/build/Debug-iphoneos",
 					"/Users/valfer/Developer/PopDatePicker/PopDatePicker/build/Debug-iphoneos",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/PopDatePickerWorkSpace-gkicpuxwebrryeerbcgfxgwmjfag/Build/Products/Debug-iphoneos",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/PopDatePickerWorkSpace-djiegylydmyomxdjcjviwalocgjl/Build/Products/Debug-iphoneos",
 				);
 				INFOPLIST_FILE = PopDatePickerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -317,6 +317,7 @@
 				D91DDCD319E42C0400A8C9C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
